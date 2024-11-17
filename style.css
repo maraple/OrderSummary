@@ -112,3 +112,28 @@ body {
     font-weight: bold;
     color:#18279b
 }
+
+/*mobile styles*/
+@media (max-width; 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .plan img {
+        width: 24px;
+    }
+
+    .btn {
+        padding: 12px;
+        font-size: 15px;
+    }
+}
