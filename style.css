@@ -114,7 +114,7 @@ body {
 }
 
 /*mobile styles*/
-@media (max-width; 480px) {
+@media (max-width: 380px) {
     body {
         padding: 10px;
     }
